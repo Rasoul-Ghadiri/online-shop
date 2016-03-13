@@ -1,0 +1,76 @@
+/*BODY OF MAIN PAGE AS ID 'MYPAGE'*/
+
+#myPage {
+  background-color: floralwhite;
+}
+
+
+/*HEADING OF MAIN PAGE*/
+
+#header {
+  margin-right: 0.375em;
+  text-align: center;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-color: #507c7c;
+  padding: 1em;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 5em;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+#header:hover {
+  color: #ff3333;
+  opacity: 0.8;
+}
+
+
+/*mainpage image ang blog*/
+
+#imageA {
+  height: inherit;
+  width: auto;
+  float: left;
+  margin: 33px 0px 0px 0px;
+  border-style: ridge;
+  border-width: thick;
+  border-color: darkgray;
+}
+
+
+/*mainpage blog A*/
+
+h1 {
+  text-align: center;
+}
+
+#blogA {
+  float: right;
+  width: 23em;
+  font-variant: small-caps;
+  font-family: serif;
+  font-size: 24px;
+  color: darkslategrey;
+  margin: 26px 52px 0px 0px;
+}
+
+
+/*mainpage blog B*/
+
+#blogB {
+  float: left;
+  width: 18em;
+  font-variant: small-caps;
+  font-family: serif;
+  font-size: 24px;
+  color: darkslategrey;
+  margin: 325px 0px 0px -516px;
+}
+
+
+/*video*/
+
+#vdio {
+  float: right;
+  margin: 15px 70px 0px 0px;
+}

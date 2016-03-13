@@ -1,0 +1,18 @@
+<div ng-controller="accessctrl">
+ 
+  <!-- head image-->
+  <div>
+    <img src="hd" class="img-responsive" alt="accesseries" />
+  </div>
+
+  <!--thsirt images-->
+  <div class="container">
+    <div class="pic" ng-repeat="aceess in accessories">
+      <a target="_blank" href="getnow">
+        <img ng-src="img/access/{{aceess.img}}.jpg" class="img-responsive" alt="all_accessories" width="300" height="200">
+      </a>
+      <div class="desc"> {{aceess.dscrp}} <dt>Price:{{aceess.price}}</dt></div>
+    </div>
+
+  </div>
+</div>

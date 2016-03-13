@@ -1,0 +1,51 @@
+{
+  "tshirts": [{
+    "img": "s1",
+    "dscrp": "S. Bhagat Singh Logo",
+    "price": "$32"
+	}, {
+    "img": "s2",
+    "dscrp": "Style OF Sardar",
+    "price": "$40"
+	}, {
+    "img": "s3",
+    "dscrp": "Singh Go Green",
+    "price": "$25"
+	}, {
+    "img": "s4",
+    "dscrp": "YO YO Bee Singh",
+    "price": "$30"
+	}, {
+    "img": "s5",
+    "dscrp": "Singh & Punjabi",
+    "price": "$27"
+	}, {
+    "img": "s6",
+    "dscrp": "Bhinderwala lion",
+    "price": "$35"
+	}, {
+    "img": "s7",
+    "dscrp": "Team Singh",
+    "price": "$20"
+	}, {
+    "img": "s8",
+    "dscrp": "Suited & Booted",
+    "price": "$45"
+	}, {
+    "img": "s9",
+    "dscrp": "Singh is King",
+    "price": "$37"
+	}, {
+    "img": "s10",
+    "dscrp": "Singh Make",
+    "price": "$25"
+	}, {
+    "img": "s11",
+    "dscrp": "Being Punjabi",
+    "price": "$20"
+	}, {
+    "img": "s12",
+    "dscrp": "Lion SSS",
+    "price": "$45"
+	}]
+}
