@@ -19,8 +19,12 @@ sssapp.config(['$routeProvider', function ($routeProvider) {
     templateUrl: 'partial/accer.html',
     controller: 'accessctrl'
   }).
-  when('/agreement', {
-    templateUrl: 'partial/agreement.html',
+  when('/login', {
+    templateUrl: 'partial/login.html',
+    controller: 'detailsctrl'
+  }).
+    when('/signup', {
+    templateUrl: 'partial/signup.html',
     controller: 'detailsctrl'
   }).
   when('/payment', {

@@ -1,0 +1,89 @@
+<div ng-controller="signupctrl">
+
+
+  <div class="container">
+    <div id="img">
+      <img src="images/sign.png" class="img">
+    </div>
+
+    <div class="form">
+      <form name="Signup">
+        <!--     first name input-->
+        <label for="first name">First Name
+          <div class="fnameinput">
+            <input class="form-control input-lg" type="text" name="fname" ng-model="fname" ng-minlength="3" />
+          </div>
+          <span class="fname" ng-hide="Signup.fname.$dirty && !Signup.fname.$error.minlength">
+        <b> * Required Valid Name And Atleat 3 Character </b> 
+      </span>
+        </label>
+        <!--      last name-->
+        <div class="lnameinput">
+          <label for="lastname">Last Name
+            <input class="form-control input-lg" type="text" />
+          </label>
+        </div>
+        <!--        street address-->
+        <div class="streetinput">
+          <label>
+            Street :
+            <input type="text" class="form-control input-lg" />
+          </label>
+        </div>
+        <!--   unit-->
+        <div class="unit">
+          <label>
+            UNIT # :
+            <input type="number" class="form-control input-lg" />
+          </label>
+        </div>
+        <!--        city-->
+        <div class="city">
+          <label for="city"> City
+            <input type="text" class="form-control input-lg">
+          </label>
+        </div>
+        <!--   zipcode-->
+        <div class="zip">
+          <label for="zipcode"> Zipcode
+            <input type="number" class="form-control input-lg" />
+          </label>
+        </div>
+        <!--        state-->
+        <div class="states">
+          <label for="states" class=""> STATE
+            <Select class="form-control">
+              <option ng-disabled="true">State</option>
+              <option ng-repeat="state in states">
+                {{ state.name +' '+'('+ state.type +')'}}
+              </option>
+            </select>
+          </label>
+        </div>
+        <!--  suffix number  -->
+        <div class="suffix">
+          <label for="suffix number" class="suffix"> Suffix No.
+            <select class="form-control">
+              <option ng-disabled="true">-Select-</option>
+              <option>Sr.</option>
+              <option>Jr.</option>
+              <option>II</option>
+              <option>III</option>
+              <option>IV</option>
+            </select>
+          </label>
+        </div>
+        <!--D.O.B-->
+        <div class="dob">
+          <label for="continue button"> Date Of Birth
+            <input type="number" class="form-control input-lg" placeholder="mm-dd-yyyy" />
+          </label>
+        </div>
+        <!--     button-->
+        <div class="signbtn">
+          <button class="btn btn-warning" ng-click="signin()">Continue</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
