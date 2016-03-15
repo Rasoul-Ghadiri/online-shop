@@ -1,10 +1,8 @@
 <div ng-controller="shoectrl">
-
-  <!-- head image-->
+  <!-- header image-->
   <div>
     <img src="img/shoe.jpg" class="img-responsive shoeimage" alt="noimage" />
   </div>
-
   <!--shoe images-->
   <div class="container">
     <div class="pic" ng-repeat="shoe in shoes">
@@ -13,7 +11,5 @@
       </a>
       <div class="desc"> {{shoe.dscrp}} <dt>Price:{{shoe.price}}</dt></div>
     </div>
-    <div></div>
-
   </div>
 </div>

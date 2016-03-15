@@ -1,7 +1,5 @@
 var sssapp = angular.module('sssapp', ['ngRoute']);
-
 //all routers
-
 sssapp.config(['$routeProvider', function ($routeProvider) {
 
   $routeProvider.

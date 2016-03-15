@@ -1,10 +1,8 @@
 <div ng-controller="shirtctrl">
- 
-  <!-- head image-->
+  <!-- header image-->
   <div>
     <img src="img/pic4.jpg" class="img-responsive" alt="noimage" />
   </div>
-
   <!--thsirt images-->
   <div class="container">
     <div class="pic" ng-repeat="shirt in shirts">
@@ -13,6 +11,5 @@
       </a>
       <div class="desc"> {{shirt.dscrp}} <dt>Price:{{shirt.price}}</dt></div>
     </div>
-
   </div>
 </div>
